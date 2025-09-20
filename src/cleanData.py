@@ -64,4 +64,4 @@ def removeRepeats(fileStr):
     cleaned = re.sub(REPEAT_PATTERN, "", fileStr, flags=re.MULTILINE | re.IGNORECASE)
     return cleaned
 
-#fake change
+#fake change 2
