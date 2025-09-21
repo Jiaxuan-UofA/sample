@@ -6,7 +6,7 @@
 @ID:	eng|Bates|CHI|1;08.|female|TD|MC|Target_Child|||
 @ID:	eng|Bates|MOT||female|||Mother|||
 @Types:	cross, toyplay, TD
-*MOT:	what's that ? Zzzz yy uh oh
+*MOT:	what's that ? Zzzz yy uh oh  ma'am shouldn't won't can't ain't test other const he'd been  he's doing  I'm  she's Julia's I've he'd Let's
 %mor:	pro:int|what~cop|be&3S pro:dem|that ?
 %gra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
 %act:	holds object out to Amy
@@ -21,7 +21,7 @@
 %mor:	co|yeah .
 %gra:	1|0|INCROOT 2|1|PUNCT
 %act:	takes chicken
-*MOT:	yeah .
+*MOT:	yeah . second ult
 %mor:	co|yeah .
 %gra:	1|0|INCROOT 2|1|PUNCT
 *MOT:	what's this ?

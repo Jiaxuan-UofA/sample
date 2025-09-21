@@ -1,6 +1,6 @@
 from os import listdir, path, makedirs, walk
 
-from cleanData import removeHeaders, removeSpeakerTag, removeUtternaceInfo,  removeSpecialChar, removeRepeats
+from cleanData import removeHeaders, removeSpeakerTag, removeUtternaceInfo,  removeSpecialChar, removeRepeats, replaceSpeNegConstruction, replaceRegNegConstruction, replaceIsConstruction, replaceOtherConstruction
 from readFile import readSingleDataFile, writeSingleFile
 from config import PROJECT_ROOT_PATH
 
@@ -21,6 +21,10 @@ def preprocessData(dataDirPath):
                         fileTxt = removeSpecialChar(fileTxt)
                         #fileTxt = replaceConstraction(fileTxt)
                         fileTxt = removeRepeats(fileTxt)
+                        fileTxt = replaceIsConstruction(fileTxt)
+                        fileTxt = replaceSpeNegConstruction(fileTxt)
+                        fileTxt = replaceRegNegConstruction(fileTxt)
+                        fileTxt = replaceOtherConstruction(fileTxt)
 
                     else:
                         print(f"fileTxt is empty for file {path.join(dirPath, fileName)}!")
